@@ -1,0 +1,56 @@
+<!doctype html>
+
+<html>
+    <head>
+    <meta charset="utf-8">
+    <title>Form Örneği</title>
+    <head>
+    <body>
+        <form>
+            <table border="1">
+                <tr>
+                    <td>Ad: </td>
+                    <td><input type="text" name="ad" id="ad" required placeholder="Lütfen adınızı giriniz."></td>
+                </tr>
+                <tr>
+                    <td>Soyad:</td>
+                    <td><input type="text" name="soyad" id="soyad" required placeholder="Lütfen soyadınızı giriniz."></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <h4 align="center">Lütfen öğrenmek istediğiniz <br>programlama dilini seçiniz</h4>
+                        <input type="checkbox" name="dil1" id="dil1">C++ <br>
+                        <input type="checkbox" name="dil2" id="dil2">JavaScript <br>
+                        <input type="checkbox" name="dil3" id="dil3">Python <br>
+                        <input type="checkbox" name="dil4" id="dil4">C# <br>
+                        <input type="checkbox" name="dil5" id="dil5">PHP <br>
+                        <input type="checkbox" name="dil6" id="dil6">CSS <br>
+                        <input type="checkbox" name="dil7" id="dil7">Java <br>
+                        <input type="checkbox" name="dil8" id="dil8">HTML <br>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <h4>Seviyenizi belirtiniz.</h4>
+                        <input type="radio" name="seviye">Başlangıç
+                        <input type="radio" name="seviye">Orta
+                        <input type="radio" name="seviye">Gelişmiş
+                    </td>
+                </tr>
+                <tr>
+                    <td>Yaş: </td>
+                    <td><input type="number" name="yas" id="yas" required></td>
+                </tr>
+                <tr>
+                    <td>Mail:</td>
+                    <td><input type="email" name="soyad" id="soyad" required></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                    <input type="button" name="kaydet" id="kaydet" value="KAYDET">
+                    <input type="reset" name="sil" id="sil" value="TEMİZLE"
+                    </td>
+                </tr>
+            </table>
+    </body>
+</html>
